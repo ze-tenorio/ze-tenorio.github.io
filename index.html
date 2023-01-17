@@ -4,35 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>José Luiz Tenório - Portfolio Web</title>
     <style>
         body {
-            font-family: monospace;
+            font-family: 'Montserrat', sans-serif;
             color: #293241;
             background-color: #e0fbfc;
         }
 
         h2 {
             text-transform: uppercase;
-            text-align: center;
+            text-align: left;
         }
 
         #foto-perfil {
             border-radius: 40px;
             display: block;
             margin-left: auto;
-            margin-right: auto;
-            width: 25%;
         }
 
         .links {
             text-align: center;
         }
+
+        .intro-page {
+            background-color: #293241;
+            color: #e0fbfc;
+            padding: 40px 60px 40px;
+            background-size: cover;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .social-media {
+            margin-top: 100px;
+            line-height: 40px;
+        }
+
+        .logos-social-media {
+            width: 20px;
+            height: 20px;
+        }
+
+        .links-social-media {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        #profile-name {
+            margin-left: 10px;
+        }
+
     </style>
 </head>
 <body>
-    <h2>José Luiz Tenório</h1>
-    <img id="foto-perfil" src="perfil-linkedin.jpeg" alt="Minha foto de perfil" width="300px">
+    <div class="intro-page"><div class="initial-info"><h2>José Luiz Tenório</h2><p class="social-media"><p>REDES SOCIAIS:</p><br><div class="links-social-media"><img class="logos-social-media" src="https://user-images.githubusercontent.com/22801918/89466567-7218c880-d74a-11ea-8d27-c83eb8a7f49c.png" alt="icone linkedin"><p id="profile-name">José Luiz Tenório</p><br></div><div class="links-social-media"><img class="logos-social-media" src="https://cdn-icons-png.flaticon.com/512/38/38401.png" alt="icone github"><p id="profile-name">ze-tenorio</p></div></div>
+    <img id="foto-perfil" src="perfil-linkedin.jpeg" alt="Minha foto de perfil" width="300px"></div>
     <h3>Índice:</h3>
     <ol>
         <li><a href="#sobre-mim">Sobre mim</a></li>
@@ -46,6 +77,7 @@
     <h3 id="competencias">Competências:</h3>
     <ul>
         <li><em>HTML</em></li>
+        <li><em>CSS</em></li>
         <li>Inglês</li>
         <li>Espanhol</li>
         <li>Francês</li>
