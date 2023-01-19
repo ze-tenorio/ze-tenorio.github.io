@@ -1,13 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     color: #293241;
     background-color: #e0fbfc;
     text-align: center;
+    line-height: 20px;
 }
 
 h2 {
     font-weight: 900;
     line-height: 40px;
+}
+
+ul {
+    list-style: none;
 }
 
 .links {
@@ -44,9 +54,32 @@ h2 {
 }
 
 #foto-perfil {
-    border-radius: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 100%;
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
+
+.about-me-text {
+    max-width: 65%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.header-about-me {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.header-socials {
+    line-height: 30px;
+}
+
+.habilities li:nth-of-type(odd) {
+    color: red;
+}
