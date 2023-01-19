@@ -16,6 +16,10 @@ h2 {
     line-height: 40px;
 }
 
+ul {
+    list-style: none;
+}
+
 .links {
     text-align: center;
 }
@@ -74,4 +78,8 @@ h2 {
 
 .header-socials {
     line-height: 30px;
+}
+
+.habilities li:nth-of-type(odd) {
+    color: red;
 }
