@@ -14,7 +14,7 @@ h2 {
     text-align: center;
 }
 
-.intro-page {
+.header {
     background-color: #293241;
     color: #e0fbfc;
     padding: 40px 60px 40px;
@@ -49,3 +49,4 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
