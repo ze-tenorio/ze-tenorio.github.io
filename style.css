@@ -7,7 +7,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: rgb(29, 53, 87);
     background-color: rgb(241, 250, 238);
-    
     line-height: 20px;
 }
 
@@ -19,6 +18,7 @@ h1 {
 
 ul {
     list-style: none;
+    line-height: 25px;
 }
 
 main {
