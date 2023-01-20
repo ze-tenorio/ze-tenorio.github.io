@@ -5,19 +5,30 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #293241;
-    background-color: #e0fbfc;
-    text-align: center;
+    color: rgb(29, 53, 87);
+    background-color: rgb(241, 250, 238);
+    
     line-height: 20px;
 }
 
-h2 {
+h1 {
     font-weight: 900;
     line-height: 40px;
+    text-align: center;
 }
 
 ul {
     list-style: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(29, 53, 87);
+    width: 100%;
 }
 
 .links {
@@ -25,28 +36,21 @@ ul {
 }
 
 .header {
-    background-color: #293241;
-    color: #e0fbfc;
+    background-color: rgb(29, 53, 87);
+    color: rgb(241, 250, 238);
     padding: 40px 60px 40px;
 }
 
-.social-media {
-    text-align: left;
-}
-
 .logos-social-media {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
 
 .links-social-media {
     display: flex;
     flex-direction: row;
-    align-items: center;
-}
-
-.content {
-    padding: 20px 150px;
+    padding: 10px;
 }
 
 #profile-name {
@@ -78,8 +82,4 @@ ul {
 
 .header-socials {
     line-height: 30px;
-}
-
-.habilities li:nth-of-type(odd) {
-    color: red;
 }
