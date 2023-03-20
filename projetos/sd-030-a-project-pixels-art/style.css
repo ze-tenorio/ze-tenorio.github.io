@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  background-image: url('images/2513419.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+}
+
+#color-palette {
+  background-image: url('images/color-palette.png');
+  background-position: center center;
+  background-size: 300px 200px;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 150px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.color {
+  border: 1px solid black;
+  border-radius: 100%;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin-right: 2px;
+  margin-top: 30px;
+}
+
+.color:nth-of-type( 4 ) {
+  margin-right: 30px;
+}
+
+.selected {
+  height: 45px;
+  width: 45px;
+}
+
+#button-random-color , #clear-board {
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
+
+#button-random-color:hover , #clear-board:hover {
+  background-color: #3e8e41;
+}
+
+#button-random-color:active , #clear-board:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+#board-size-content {
+  margin-top: 20px;
+}
+
+#board-size {
+  height: 20px;
+}
+
+#generate-board {
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
+
+#generate-board:hover {
+  background-color: #3e8e41;
+}
+
+#generate-board:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+#pixel-board {
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+  grid-template-rows: repeat(5, 40px);
+  grid-auto-flow: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pixel {
+  border: 1px solid black;
+  border-radius: 10%;
+}
